@@ -1,4 +1,4 @@
-# Problems and limitations.
+# Problems and limitations
 
 * In R, function-oriented distributed computing workloads are already possible through packages such as `clustermq` and `future`. However, these packages rely on traditional HPC systems such as SLURM and SGE, and there is not yet support for cloud-based services from companies like Amazon, Google, or Azure.
 * The `paws` package interfaces with AWS, but it deliberately operates at a low level and does not support the abstractions necessary for native function-oriented distributed computing.
