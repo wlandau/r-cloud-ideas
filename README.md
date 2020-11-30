@@ -29,7 +29,7 @@ Mentioned at https://github.com/paws-r/paws/issues/330. Fargate looks promising 
 
 ## `clustermq` backend for `future`
 
-See https://github.com/HenrikBengtsson/future/issues/204 and https://github.com/HenrikBengtsson/future.clustermq. If we go with one of the `clustermq`-native solutions, then the `future` ecosystem would automatically get it through a new  `future.clustermq` package (currently under development).
+See https://github.com/HenrikBengtsson/future/issues/204 and https://github.com/HenrikBengtsson/future.clustermq. If we go with one of the `clustermq`-native solutions, then the `future` ecosystem will automatically get it through a new  `future.clustermq` package (currently under development).
 
 ## AWS Batch backend for `future`
 
