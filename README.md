@@ -10,7 +10,7 @@ The goal is to arrive at a reusable, efficient, user-friendly, cloud-based distr
 
 1. Distributed computing powered by AWS or similar service.
 1. Automatic setup and teardown (e.g. Batch is preferred over ParallelCluster).
-1. Easy setup, e.g. arbitrary Docker containers.
+1. Easy customization, e.g. arbitrary Docker containers.
 1. Inexpensive for users (e.g. spot instance support).
 1. Arbitrary iterated function-oriented workflows, e.g. `furrr::future_map()` or `clustermq::Q()`.
 1. Minimal overhead. Rely on efficient network communication to manage results and dependencies, as opposed to the [classic AWS Batch "fetch-and-run" example](https://aws.amazon.com/blogs/compute/creating-a-simple-fetch-and-run-aws-batch-job/) or transactions over EFS.
