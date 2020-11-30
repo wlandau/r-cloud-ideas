@@ -33,4 +33,6 @@ See https://github.com/HenrikBengtsson/future/issues/204 and https://github.com/
 
 See https://github.com/HenrikBengtsson/future/issues/423. A new `future.awsbatch` package could provide direct AWS Batch support to the `future` ecosystem.
 
-## Directly interface to EC2
+## Directly interface to EC2 instances
+
+As [documented here](https://davisvaughan.github.io/furrr/articles/advanced-furrr-remote-connections.html), this is already possible with `future` through a PSOCK cluster. However, it is not desirable becuase it requires complicated manual setup and teardown, and it restricts users to AWS AMIs (not arbitrary Docker images). 
