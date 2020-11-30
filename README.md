@@ -23,4 +23,12 @@ See https://github.com/mschubert/clustermq/issues/208 for a discussion. Submitti
 
 ## AWS Fargate backend for `clustermq`
 
- 
+Fargate looks promising at a glance, but more exploratory work remains.
+
+## `clustermq` backend for `future`
+
+
+
+## AWS Batch backend for `future`
+
+
