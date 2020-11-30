@@ -18,3 +18,9 @@ The goal is to arrive at a reusable cloud-based distributed computing solution f
 # Ideas
 
 ## AWS Batch backend for `clustermq`
+
+See https://github.com/mschubert/clustermq/issues/208 for a discussion. Submitting array jobs to AWS Batch through `paws` is straightforward, but it requires reverse SSH tunneling, which might not be possible in Batch. And `clustermq` common data might not broadcast efficiently.
+
+## AWS Fargate backend for `clustermq`
+
+ 
