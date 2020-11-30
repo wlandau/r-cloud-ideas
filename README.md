@@ -23,12 +23,14 @@ See https://github.com/mschubert/clustermq/issues/208 for a discussion. Submitti
 
 ## AWS Fargate backend for `clustermq`
 
-Fargate looks promising at a glance, but more exploratory work remains.
+Mentioned at https://github.com/paws-r/paws/issues/330. Fargate looks promising at a glance, but more exploratory work remains.
 
 ## `clustermq` backend for `future`
 
-
+See https://github.com/HenrikBengtsson/future/issues/204 and https://github.com/HenrikBengtsson/future.clustermq. If we go with one of the `clustermq`-native solutions, then the `future` ecosystem would automatically get it through a new  `future.clustermq` package (currently under development).
 
 ## AWS Batch backend for `future`
 
+See https://github.com/HenrikBengtsson/future/issues/423. A new `future.awsbatch` package could provide direct AWS Batch support to the `future` ecosystem.
 
+## Directly interface to EC2
