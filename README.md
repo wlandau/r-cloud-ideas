@@ -15,4 +15,6 @@ The goal is to arrive at a reusable cloud-based distributed computing solution f
 1. An interface high-level and user-friendly enough for general consumption by the R community.
 1. Full integration into the existing `clustermq` and/or `future` frameworks (which would carry over to the `drake` and `targets` packages automatically).
 
-# Idea: AWS Batch backend for `clustermq`
+# Ideas
+
+## AWS Batch backend for `clustermq`
