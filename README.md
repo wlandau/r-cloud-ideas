@@ -6,7 +6,7 @@
 
 # Goal
 
-The goal is to arrive at a reusable cloud-based distributed computing solution for R:
+The goal is to arrive at a reusable, efficient, user-friendly, cloud-based distributed computing solution for R:
 
 1. Distributed computing powered by AWS or similar service.
 1. Automatic setup and teardown (e.g. Batch is preferred over ParallelCluster).
